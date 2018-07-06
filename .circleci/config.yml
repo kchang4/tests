@@ -34,6 +34,7 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       # run tests!
+      - rum: yarn global add codeclimate-test-reporter jest
       - run: yarn test:coverage
 
 

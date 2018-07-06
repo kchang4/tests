@@ -17,7 +17,7 @@
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:coverage": "jest && CODECLIMATE_REPO_TOKEN=fcc0bcea5b72b43963e57480c1f5a047b2d9a22100d6e6eeaa0080da4b604393 codeclimate-test-reporter < ./coverage/lcov.info"
+    "test:coverage": "jest && codeclimate-test-reporter < ./coverage/lcov.info"
   },
   "devDependencies": {
     "jest": "^23.2.0"
