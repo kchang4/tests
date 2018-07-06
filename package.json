@@ -5,6 +5,14 @@
   "repository": "git@github.com:kchang4/tests.git",
   "author": "kchang4 <khai.chang89@gmail.com>",
   "license": "GNU",
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "**/*.js",
+      "!**/node_modules/**"
+    ],
+    "coverageDirectory": "./coverage"
+  },
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch"
